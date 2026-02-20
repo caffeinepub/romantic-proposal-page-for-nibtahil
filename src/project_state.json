@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Interactive romantic web page asking Nibtahil to be mine, with Yes/No buttons where No moves away on hover, and Yes shows a romantic image. Pink/white theme, mobile-friendly for Chrome.",
+  "architectural_notes": [
+    "Single HTML file with embedded CSS and JavaScript for easy deployment",
+    "Responsive design for mobile (iPad/phone) compatibility",
+    "Personalized with girlfriend's name 'Nibtahil'"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-romantic-themed-landing-page-that-asks-nibtahil-will-you-be-mine-with-pink-and-white-color-scheme",
+      "title": "Create a romantic-themed landing page that asks 'Nibtahil, will you be mine?' with pink and white color scheme",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-two-interactive-buttons-labeled-yes-and-no-with-the-no-button-moving-away-randomly-when-the-user-hovers-over-it",
+      "title": "Add two interactive buttons labeled 'Yes' and 'No' with the No button moving away randomly when the user hovers over it",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-the-uploaded-romantic-emoji-image-431bcc9e2ede8fba6459866eea92d85f-jpg-when-the-yes-button-is-clicked",
+      "title": "Display the uploaded romantic emoji image (431bcc9e2ede8fba6459866eea92d85f.jpg) when the Yes button is clicked",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-the-page-is-fully-responsive-and-works-seamlessly-on-mobile-devices-ipad-and-phones-using-chrome-browser",
+      "title": "Ensure the page is fully responsive and works seamlessly on mobile devices (iPad and phones) using Chrome browser",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create romantic-themed web page asking 'Will you be mine?' with Yes/No buttons",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Make No button move away on hover to prevent clicking",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Show romantic image when Yes is clicked",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Apply pink and white color scheme throughout the page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Ensure mobile-friendly and works on iPad/phone Chrome browsers",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Render the uploaded romantic emoji image as a static asset in frontend/public/assets/generated",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Romantic Proposal Page for Nibtahil",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,16 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no functionality; backend is unused for this client-side application.",
+  "feature_evidence.json": "Feature evidence report documenting four implemented features: romantic landing page, interactive Yes/No buttons with hover behavior, romantic emoji display on Yes click, and responsive mobile design.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing the romantic proposal app structure, interactive button behavior, styling, and configuration.",
+  "frontend/index.css": "Base Tailwind CSS configuration with OKLCH color variables for light and dark themes, defining design tokens for backgrounds, foregrounds, and UI elements.",
+  "frontend/index.html": "HTML entry point with viewport meta tag, page title, root div, and module script reference to main.tsx.",
+  "frontend/src/App.tsx": "Main React component managing proposal state, displaying question with floating hearts, rendering ProposalButtons, and showing celebration image with footer when Yes is clicked.",
+  "frontend/src/components/ProposalButtons.tsx": "Interactive button component with stationary Yes button and No button that randomly repositions on hover/touch to prevent clicking, handling both desktop and mobile events.",
+  "frontend/src/hooks/useActor.ts": "React hook for managing ICP backend actor instances with authentication, creating anonymous or authenticated actors based on Internet Identity state and invalidating queries on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as no backend queries are needed for this client-side romantic proposal page.",
+  "frontend/src/index.css": "Global styles with romantic pink/white OKLCH color scheme, gradient background, custom romantic color utilities, fade-in/scale-in animations, and mobile-friendly touch handling with text selection prevention.",
+  "frontend/src/main.tsx": "React application entry point setting up QueryClient, InternetIdentityProvider, and rendering the App component into the root DOM element.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration file defining custom color schemes (using oklch), typography, container queries, animations, border radius, shadows, and font families for a romantic-themed UI with sidebar and chart components.",
+  "project_state.json": "Project state tracking file documenting a romantic proposal web page for Nibtahil with interactive Yes/No buttons, pink/white theme, mobile responsiveness, and features for displaying a romantic image on Yes click."
+}

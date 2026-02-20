@@ -1,0 +1,81 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-romantic-themed-landing-page-that-asks-nibtahil-will-you-be-mine-with-pink-and-white-color-scheme",
+      "featureTitle": "Create a romantic-themed landing page that asks 'Nibtahil, will you be mine?' with pink and white color scheme",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-two-interactive-buttons-labeled-yes-and-no-with-the-no-button-moving-away-randomly-when-the-user-hovers-over-it",
+      "featureTitle": "Add two interactive buttons labeled 'Yes' and 'No' with the No button moving away randomly when the user hovers over it",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ProposalButtons.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-display-the-uploaded-romantic-emoji-image-431bcc9e2ede8fba6459866eea92d85f-jpg-when-the-yes-button-is-clicked",
+      "featureTitle": "Display the uploaded romantic emoji image (431bcc9e2ede8fba6459866eea92d85f.jpg) when the Yes button is clicked",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-ensure-the-page-is-fully-responsive-and-works-seamlessly-on-mobile-devices-ipad-and-phones-using-chrome-browser",
+      "featureTitle": "Ensure the page is fully responsive and works seamlessly on mobile devices (iPad and phones) using Chrome browser",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ProposalButtons.tsx",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

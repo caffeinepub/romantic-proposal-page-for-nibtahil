@@ -1,0 +1,114 @@
+{
+  "kind": "build_request",
+  "title": "Create romantic proposal web page for Nibtahil",
+  "projectName": "Nibtahil Surprise",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a romantic-themed landing page that asks 'Nibtahil, will you be mine?' with pink and white color scheme",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Create an interactive web page as a surprise for my girlfriend",
+          "gf name is \"Nibtahil\"",
+          "pink and white color scheme"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page displays the question 'Nibtahil, will you be mine?' prominently",
+        "Pink and white color scheme is applied throughout the design",
+        "Design is simple and romantic-themed"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Add two interactive buttons labeled 'Yes' and 'No' with the No button moving away randomly when the user hovers over it",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "There should be two options: Yes or No",
+          "When she hovers her cursor over No, it should move away so she cannot click it, forcing her to click only on Yes"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Two buttons are displayed: 'Yes' and 'No'",
+        "No button moves to a random position when hovered over",
+        "No button cannot be clicked due to hover behavior",
+        "Yes button remains stationary and clickable"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Display the uploaded romantic emoji image (431bcc9e2ede8fba6459866eea92d85f.jpg) when the Yes button is clicked",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "When she clicks Yes, show her a image given also no changing in image use this excet"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Clicking the Yes button displays the uploaded image",
+        "The exact uploaded image (431bcc9e2ede8fba6459866eea92d85f.jpg) is shown without modifications",
+        "Image is displayed prominently and clearly"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Ensure the page is fully responsive and works seamlessly on mobile devices (iPad and phones) using Chrome browser",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "so that I can easily run it on my iPad or in phone both using Chrome"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page is responsive and adapts to mobile screen sizes",
+        "All interactive elements work correctly on touch devices",
+        "Page renders properly in Chrome on iPad and phones",
+        "Button hover behavior is adapted for touch interactions"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Render the uploaded romantic emoji image as a static asset in frontend/public/assets/generated",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The uploaded image (431bcc9e2ede8fba6459866eea92d85f.jpg) is saved to frontend/public/assets/generated",
+        "Image is accessible for display in the frontend"
+      ]
+    }
+  ],
+  "constraints": [
+    "Use the exact uploaded image (431bcc9e2ede8fba6459866eea92d85f.jpg) without modifications",
+    "Use pink and white color scheme as specified by the user",
+    "Ensure mobile compatibility for iPad and phone Chrome browsers"
+  ],
+  "nonGoals": [
+    "Adding backend functionality or data persistence",
+    "Creating multiple pages or navigation",
+    "Implementing authentication or user accounts",
+    "Adding animations beyond the No button movement behavior"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

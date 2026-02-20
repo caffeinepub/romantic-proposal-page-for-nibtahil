@@ -1,0 +1,7 @@
+{
+  "frontend/src/App.tsx": "Main application component that displays the romantic proposal question to Nibtahil with Yes/No buttons, then shows the celebration image when Yes is clicked. Includes floating heart decorations and a footer with attribution.",
+  "frontend/src/components/ProposalButtons.tsx": "Interactive button component that renders a stationary Yes button and a No button that moves to random positions on hover or touch, preventing the user from clicking No. Handles both desktop hover and mobile touch events.",
+  "frontend/src/index.css": "Global styles with a romantic pink and white OKLCH color scheme, gradient background, custom romantic color utilities, and animations for fade-in and scale-in effects. Includes mobile-friendly touch handling and text selection prevention.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with romantic color palette (light, medium, dark pink shades), increased border radius values, custom romantic shadow, and Inter font family for a polished romantic aesthetic.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as no backend queries are needed for this client-side romantic proposal page."
+}
